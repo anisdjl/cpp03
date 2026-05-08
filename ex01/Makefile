@@ -6,7 +6,7 @@
 #    By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/08 14:22:50 by adjelili          #+#    #+#              #
-#    Updated: 2026/05/08 14:23:29 by adjelili         ###   ########.fr        #
+#    Updated: 2026/05/08 16:43:39 by adjelili         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,8 @@ CXX = c++
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98
 NAME = a.out
 SRC = main.cpp \
-	  ClapTrap.cpp
+	  ClapTrap.cpp \
+	  ScravTrap.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
