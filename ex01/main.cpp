@@ -6,17 +6,17 @@
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 14:19:38 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/08 17:20:34 by adjelili         ###   ########.fr       */
+/*   Updated: 2026/05/09 14:44:36 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
-#include "Scarvtrap.hpp"
+#include "Scavtrap.hpp"
 
 int main(void)
 {
-	ScravTrap Anis = ScravTrap("Anis");
-	ScravTrap Evan = ScravTrap("Evan");
+	ScavTrap Anis = ScavTrap("Anis");
+	ScavTrap Evan = ScavTrap("Evan");
 	
 	Anis.displayInfo();
 	Evan.displayInfo();

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Scarvtrap.hpp                                      :+:      :+:    :+:   */
+/*   Scavtrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 15:16:56 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/08 16:53:28 by adjelili         ###   ########.fr       */
+/*   Updated: 2026/05/09 14:41:37 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,13 @@
 
 #include "ClapTrap.hpp"
 
-class ScravTrap : public ClapTrap
+class ScavTrap : virtual public ClapTrap
 {
 	public: 
-		ScravTrap(std::string name);
-		~ScravTrap(void);
-		ScravTrap(const ScravTrap &src);
-		ScravTrap	&operator=(const ScravTrap &src);
+		ScavTrap(std::string name);
+		~ScavTrap(void);
+		ScavTrap(const ScavTrap &src);
+		ScavTrap	&operator=(const ScavTrap &src);
 		void	guardGate(void);
 		void	attack(const std::string &target);
 };
