@@ -6,7 +6,7 @@
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 15:19:44 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/08 18:04:43 by adjelili         ###   ########.fr       */
+/*   Updated: 2026/05/08 18:05:33 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,6 @@ ScravTrap	&ScravTrap::operator=(const ScravTrap &src)
 {
 	std::cout << "ScravTrap assignement constructor called\n";
 	if (this != &src)
-		ClapTrap::operator=(src); // on peut faire la methode classique aussi car c'est en protected dans le parent
+		ClapTrap::operator=(src);
 	return (*this);
 }

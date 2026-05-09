@@ -6,17 +6,18 @@
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 14:19:38 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/08 17:20:34 by adjelili         ###   ########.fr       */
+/*   Updated: 2026/05/08 18:12:05 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 #include "Scarvtrap.hpp"
+#include "FragTrap.hpp"
 
 int main(void)
 {
-	ScravTrap Anis = ScravTrap("Anis");
-	ScravTrap Evan = ScravTrap("Evan");
+	FragTrap Anis = FragTrap("Anis");
+	FragTrap Evan = FragTrap("Evan");
 	
 	Anis.displayInfo();
 	Evan.displayInfo();
@@ -38,6 +39,7 @@ int main(void)
 
 	Anis.displayInfo();
 	Evan.displayInfo();
-	Anis.guardGate();
+	Anis.highFiveGuys();
+	
 	return (0);
 }

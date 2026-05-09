@@ -1,29 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Scarvtrap.hpp                                      :+:      :+:    :+:   */
+/*   FragTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/08 15:16:56 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/09 12:05:40 by adjelili         ###   ########.fr       */
+/*   Created: 2026/05/08 17:41:51 by adjelili          #+#    #+#             */
+/*   Updated: 2026/05/08 17:51:40 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SCRAVTRAP_HPP
-# define SCRAVTRAP_HPP
+#ifndef FRAGTRAP_HPP
+# define FRAGTRAP_HPP
 
 #include "ClapTrap.hpp"
 
-class ScravTrap : virtual public ClapTrap
+class FragTrap : public ClapTrap
 {
-	public: 
-		ScravTrap(std::string name);
-		~ScravTrap(void);
-		ScravTrap(const ScravTrap &src);
-		ScravTrap	&operator=(const ScravTrap &src);
-		void	guardGate(void);
-		void	attack(const std::string &target);
+	public:
+		FragTrap(std::string name);
+		~FragTrap(void);
+		FragTrap(const FragTrap &src);
+		FragTrap &operator=(const FragTrap &src);
+		void	highFiveGuys(void);
 };
 
 #endif
