@@ -6,7 +6,7 @@
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 14:19:27 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/08 19:04:03 by adjelili         ###   ########.fr       */
+/*   Updated: 2026/05/09 14:33:58 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,23 +18,23 @@ ClapTrap::ClapTrap(std::string name)
 	_attackDamage = 0;
 	_energyPoint = 10;
 	_hitPoints = 10;
-	std::cout << "ClapTrap constructor called\n";
+	std::cout << "ClapTrap constructor's called\n";
 }
 
 ClapTrap::~ClapTrap(void)
 {
-	std::cout << "ClapTrap destrcutor called\n";
+	std::cout << "ClapTrap destrcutor's called\n";
 }
 
 ClapTrap::ClapTrap(const ClapTrap &src)
 {
-	std::cout << "ClapTrap's copy constructor called\n";
+	std::cout << "ClapTrap copy constructor's called\n";
 	*this = src;
 }
 
 ClapTrap	&ClapTrap::operator=(const ClapTrap &src)
 {
-	std::cout << "ClapTrap assignement constructor called\n";
+	std::cout << "ClapTrap assignement constructor's called\n";
 	if (this != &src)
 	{
 		_name = src._name;
