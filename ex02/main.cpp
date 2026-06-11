@@ -6,7 +6,7 @@
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 14:19:38 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/09 14:45:01 by adjelili         ###   ########.fr       */
+/*   Updated: 2026/06/11 18:27:04 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int main(void)
 
 	Anis.displayInfo();
 	Evan.displayInfo();
-	Anis.highFiveGuys();
+	Anis.highFivesGuys();
 	
 	return (0);
 }

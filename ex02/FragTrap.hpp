@@ -6,7 +6,7 @@
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 17:41:51 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/08 17:51:40 by adjelili         ###   ########.fr       */
+/*   Updated: 2026/06/11 18:26:51 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class FragTrap : public ClapTrap
 		~FragTrap(void);
 		FragTrap(const FragTrap &src);
 		FragTrap &operator=(const FragTrap &src);
-		void	highFiveGuys(void);
+		void	highFivesGuys(void);
 };
 
 #endif
