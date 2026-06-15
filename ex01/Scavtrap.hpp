@@ -6,7 +6,7 @@
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/08 15:16:56 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/09 14:41:37 by adjelili         ###   ########.fr       */
+/*   Updated: 2026/06/15 14:18:08 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 #include "ClapTrap.hpp"
 
-class ScavTrap : virtual public ClapTrap
+class ScavTrap : public ClapTrap
 {
 	public: 
 		ScavTrap(std::string name);
